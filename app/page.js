@@ -3,8 +3,11 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <Button>
+    <div className="mt-40">
+      <Button >
       Heya
     </Button>
+    </div>
+    
   );
 }
